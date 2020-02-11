@@ -1,0 +1,31 @@
+Test suite spec: RUNNING...
+
+problem 1
+  mempty for Same is left unit to (<>)
+    +++ OK, passed 100 tests.
+  mempty for Same is right unit to (<>)
+    +++ OK, passed 100 tests.
+problem 2
+  mempty for a -> b is left unit to (<>)
+    +++ OK, passed 100 tests.
+  mempty for a -> b is right unit to (<>)
+    +++ OK, passed 100 tests.
+problem 3
+  (<>) for Result is associative
+    +++ OK, passed 100 tests.
+  mempty for Result is left unit to (<>)
+    +++ OK, passed 100 tests.
+  mempty for Result is right unit to (<>)
+    +++ OK, passed 100 tests.
+  mconcat for Result is correct with all Ok values
+    +++ OK, passed 100 tests.
+  mconcat for Result is correct with any Error values
+    +++ OK, passed 100 tests.
+problem 4
+  train meets the specification
+    +++ OK, passed 100 tests.
+
+Finished in 1.3983 seconds
+10 examples, 0 failures
+Test suite spec: PASS
+Test suite logged to: /Users/spooky/Documents/fp/hw3/dist-newstyle/build/x86_64-osx/ghc-8.6.5/hw3-1.0.0.0/t/spec/test/hw3-1.0.0.0-spec.log
